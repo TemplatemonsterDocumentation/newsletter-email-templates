@@ -13,6 +13,7 @@ var doc_language = getCookie('doc_language');
 console.log(doc_language);
 
 /*Language switcher*/
+
   function select_menu(id){
       var icon = $(id).find('.select-menu_icon');
       var list = $(id).find('.select-menu_list');
