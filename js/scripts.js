@@ -13,7 +13,6 @@ var doc_language = getCookie('doc_language');
 console.log(doc_language);
 
 /*Language switcher*/
-
   function select_menu(id){
       var icon = $(id).find('.select-menu_icon');
       var list = $(id).find('.select-menu_list');
@@ -50,7 +49,7 @@ console.log(doc_language);
       */
       var languages = [ 
           ['en', 'English', true], 
-          ['ru', 'Русский', true], 
+          ['ru', 'Русский', false], 
           ['es', 'Español', false], 
           ['de', 'Deutsch', false], 
           ['fr', 'Français', false],
@@ -260,7 +259,7 @@ $(document).ready(function() {
         if (st > lastScrollTop){
             for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
                 if(
-                    st + 160 >= $(idArray[i]).offset().top
+                    st + 30 >= $(idArray[i]).offset().top
                 )
                 {
                   hash = idArray[i];
@@ -269,7 +268,7 @@ $(document).ready(function() {
         } else {
           for(var i = idArray.length - 1; i>=0; i--){
                 if(
-                    st + 160 <= $(idArray[i]).offset().top
+                    st + 30 <= $(idArray[i]).offset().top
                 )
                 {
                 hash = idArray[i-1];
@@ -305,8 +304,6 @@ $(document).ready(function() {
 
 })  
 
-
-
 !function ($) {
   $(function(){ 
     var $window = $(window)   
@@ -325,4 +322,3 @@ $(document).ready(function() {
   var currentYear = (new Date).getFullYear(); 
   $("#copyright-year").text( (new Date).getFullYear() );
 }); 
-
