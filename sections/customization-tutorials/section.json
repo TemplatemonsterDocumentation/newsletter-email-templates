@@ -1,0 +1,20 @@
+{
+  "id": "customization-tutorials",
+  "translations": {
+    "en": "Customization Tutorials "
+  },
+  "articles": [
+    {
+      "id": "how-to-edit-text",
+      "translations": {
+        "en": "How to edit text"
+      }
+    },
+    {
+      "id": "how-to-edit-images",
+      "translations": {
+        "en": "How to edit images"
+      }
+    }
+  ]
+}
