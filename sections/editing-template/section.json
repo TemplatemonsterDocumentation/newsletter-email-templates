@@ -1,0 +1,20 @@
+{
+  "id": "editing-template",
+  "translations": {
+    "en": "Editing template"
+  },
+  "articles": [
+    {
+      "id": "editing-html-and-css-files",
+      "translations": {
+        "en": "Editing HTML"
+      }
+    },
+    {
+      "id": "editing-psd-files",
+      "translations": {
+        "en": "Editing PSD files"
+      }
+    }
+  ]
+}

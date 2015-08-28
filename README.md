@@ -1,2 +1,2 @@
-newsletter-templates
-====================
+# theme-documentation
+New Theme Documentation
