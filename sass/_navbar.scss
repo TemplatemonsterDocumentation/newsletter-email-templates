@@ -67,10 +67,13 @@ $rd-menu-width-mobile: 250px;
     }
 
     @media (max-width: 479px) {
+      img{
+        max-width: 45px;
+        margin-top: 8px;
+      }
 
-      > span{
-        font-size: 24px;
-        line-height: 24px;
+      > a > span{
+        font-size: 23px; 
       }
 
       small{
